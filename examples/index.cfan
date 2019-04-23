@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+  <div class="friend-list">
+  <h2><#= userName #></h2>
+  <ul class="user-list">
+    <#=
+      friends
+      .filter(f => f.friends.includes(userId))
+      .map(user => {
+        return `<li class="user-name">${user.name}</li>`;
+      }).join('')
+    #>
+  </ul>
+</div>
+</div>
+</body>
+</html>

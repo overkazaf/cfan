@@ -1,0 +1,5 @@
+<#=
+  abc.map(x => {
+    return <#! user|x #>;
+  }).join('');
+#>
