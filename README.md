@@ -51,6 +51,6 @@ express.get('/user/:fileName', (req, res) => {
 ```
 
 
-## Inovation
+## Motivation
 + EJS
 + Jade/Pug
